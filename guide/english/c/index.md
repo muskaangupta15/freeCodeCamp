@@ -33,17 +33,16 @@ int main(void)
 
 Let's break this program down step-by-step.
 
-First is the `#include`:
-```C
+First is the 
 #include <stdio.h> // This is called preprocessor directives
-```
-This is an instruction to the compiler to find and include a set of header files. Header files contain additional code that we can use. In this case, the compiler has been instructed to include `<stdio.h>`, which contains all kinds of useful functions like `printf()`. We can also write it as `#include"stdio.h"`. We'll get into detail about what functions are later, but for now just remember that a function is a collection of code that we can use.
 
-```C
+This is an instruction to the compiler to find and include a set of header files. Header files contain additional code that we can use. In this case, the compiler has been instructed to include `<stdio.h>`, which contains all kinds of useful functions like `printf()`, 'scanf'. We can also write it as `#include"stdio.h"`. We'll get into detail about what functions are later, but for now just remember that a function is a collection of code that we can use.
+
+
 int main(void)
 {
 }
-```
+
 This code declares the main function. The main function is special- it will always get called and is always the 'main' part of your program. If this isn't in your program, your program can't run and won't compile.
 
 Starting the function declaration with `int` means that this function will give an `int` value when it's done running through its code- it's this function's output. `int` is the 'integer' data type, and integers are whole numbers like -3, 0, or 18. So we know that this code will run, and when it's done, it will give us back an integer. By convention, this integer is 0.
@@ -97,17 +96,6 @@ Once you've got it compiled, run the following command:
 
 If everything has gone well, you should see `Hello, World!` printed to the screen.
 
-#### Compilation and running C with CodeBlocks
-<a href='http://www.codeblocks.org/downloads/26' target='_blank' rel='nofollow'>Codeblocks can be downloaded from here.</a>
-Make a new program with `file` -> `new` -> `file`, select C/C++ source, select C as your language, and then copy over the helloworld.c text that you read through earlier. Compile and run the code with `Build` -> `Build and Run`.
-
-
-#### Compilation and running C with Xcode
-[Xcode can be downloaded from here.](https://developer.apple.com/xcode/)
-
-#### Compilation and running C with Dev-C++
-<a href='https://sourceforge.net/projects/orwelldevcpp/' target='_blank' rel='nofollow'>Dev-C++ can be downloaded from here.</a>
-Make a new program with `file` -> `new` -> `Source File`, then copy over the helloworld.c text that you read through earlier and then save the file with`file` -> `save As`  as hello.c , and Compile and run the code with `Execute` -> `Compile & Run`.
 
 # Before you go on...
 
@@ -121,9 +109,7 @@ Make a new program with `file` -> `new` -> `Source File`, then copy over the hel
  * Stuff within that main function which will get executed, including a return statement that closes the program and gives a value to the program that called it.
 * C needs to be compiled in order to run.
 * C can be used to access specific hardware addresses and to perform type punning to match externally imposed interface requirements, with a low run-time demand on system resources.
-#### More information:
 
-* [C Programming Tutorials.](https://www.tutorialspoint.com/cprogramming/)
 
 
 
